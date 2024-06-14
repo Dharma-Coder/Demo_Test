@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression_Suite">
+        <test verbose="2" preserve-order="true" name="Regression-Suit">
+            <classes>
+                <class name="TestCases.Books">
+                    <methods>
+                        <include name="VerifyADDButtonOne"/>
+                        <include name="VerifyADDButtonTwo"/>
+                        <include name="VerifyADDButtonThree"/>
+                        <include name="VerifyCompareListOne"/>
+                    </methods>
+            </class>
+            <class name="TestCases.Computer">
+                <methods>
+                        <include name="VerifyComputerPage"/>
+
+
+                </methods>
+                </class>
+           </classes>
+         </test>
+</suite>
